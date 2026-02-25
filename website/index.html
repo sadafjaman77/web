@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PDF Reader - Fast & Secure Android Document Viewer</title>
+    <meta name="description"
+        content="A lightweight, fast, and privacy-focused PDF reader for Android. Seamlessly scan and manage your documents with zero cloud upload.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Ionicons for scalable icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav style="padding: 20px 0; background: #fff; border-bottom: 1px solid #eee;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-weight: 700; font-size: 1.25rem; color: var(--primary);">My PDF Reader</div>
+            <div>
+                <a href="#features" style="margin-right: 20px; color: var(--text-main);">Features</a>
+                <a href="#download" class="btn btn-primary btn-sm">Download App</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <span class="version-tag">Version 1.0.0 Released</span>
+            <h1>Your Documents.<br>Fast, Private, Organized.</h1>
+            <p>The smartest way to manage PDF files on Android. Powerful local scanning, instant rendering, and complete
+                privacy without the cloud bloat.</p>
+
+            <div style="display: flex; gap: 16px; justify-content: center; margin-top: 32px; flex-wrap: wrap;">
+                <a href="#download" class="btn btn-primary">
+                    <ion-icon name="logo-android"></ion-icon>
+                    Download APK
+                </a>
+                <a href="#security" class="btn btn-outline">
+                    <ion-icon name="shield-checkmark-outline"></ion-icon>
+                    Security Check
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why choose My PDF Reader?</h2>
+
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <ion-icon name="flash-outline"></ion-icon>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized for speed. handles large PDF files (100MB+) with ease, featuring smart thumbnail
+                        generation and smooth scrolling.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </div>
+                    <h3>100% Private</h3>
+                    <p>Your documents stay on your device. We use local storage scanning to find your files. No cloud
+                        uploads, no data syncing.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">
+                        <ion-icon name="moon-outline"></ion-icon>
+                    </div>
+                    <h3>Eye Comfort</h3>
+                    <p>Built-in Dark Mode and carefully designed themes reduce eye strain during late-night reading
+                        sessions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Download Section -->
+    <section id="download" class="downloads">
+        <div class="container">
+            <h2 class="section-title">Get the App</h2>
+
+            <!-- Primary Download -->
+            <div class="download-box-primary">
+                <h3>Recommended for Most Users</h3>
+                <p style="margin-bottom: 24px; color: var(--text-light);">Compatible with 99% of Android devices
+                    (Android 5.0+)</p>
+
+                <a href="https://github.com/sadafjaman77/my-pdf-reader-app/releases/download/V1.0.0/app-release.apk"
+                    class="btn btn-primary" style="font-size: 1.25rem; padding: 16px 32px;">
+                    <ion-icon name="download-outline"></ion-icon>
+                    Download Universal APK
+                </a>
+                <p style="margin-top: 16px; font-size: 0.875rem; color: var(--text-light);">Size: ~15MB • Version 1.0.0
+                </p>
+
+                <div
+                    style="margin-top: 24px; text-align: left; background: #f8fafc; padding: 16px; border-radius: 8px;">
+                    <h4 style="display: flex; align-items: center; gap: 8px;">
+                        <ion-icon name="information-circle-outline"></ion-icon> How to Install
+                    </h4>
+                    <ol style="margin-left: 20px; margin-top: 8px; font-size: 0.9rem; color: var(--text-main);">
+                        <li>Download the APK file.</li>
+                        <li>Tap the notification when finished.</li>
+                        <li>If prompted, enable <strong>"Install from Unknown Sources"</strong> in settings.</li>
+                        <li>Tap <strong>Install</strong> and enjoy!</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Advanced Downloads -->
+            <div class="advanced-downloads">
+                <h3 style="text-align: center; margin-bottom: 16px;">Advanced Downloads (For Pro Users Only)</h3>
+                <p style="text-align: center; max-width: 600px; margin: 0 auto 32px; color: var(--text-light);">
+                    These builds are optimized for specific CPU architectures. They are smaller in size but only work on
+                    compatible hardware. If unsure, use the Universal APK above.
+                </p>
+
+                <div class="card">
+                    <table class="download-table">
+                        <thead>
+                            <tr>
+                                <th>Architecture</th>
+                                <th>Description</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>ARM64-v8a</strong></td>
+                                <td>Standard for modern Android phones (Post-2016).</td>
+                                <td>
+                                    <a href="https://github.com/sadafjaman77/my-pdf-reader-app/releases/download/V1.0.0/app-arm64-v8a-release.apk"
+                                        class="btn btn-outline btn-sm">Download ARM64</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>ARMEABI-v7a</strong></td>
+                                <td>For older / budget devices (32-bit).</td>
+                                <td>
+                                    <a href="https://github.com/sadafjaman77/my-pdf-reader-app/releases/download/V1.0.0/app-armeabi-v7a-release.apk"
+                                        class="btn btn-outline btn-sm">Download ARMv7</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>x86_64</strong></td>
+                                <td>For Tablets, ChromeOS, and Emulators.</td>
+                                <td>
+                                    <a href="https://github.com/sadafjaman77/my-pdf-reader-app/releases/download/V1.0.0/app-x86_64-release.apk"
+                                        class="btn btn-outline btn-sm">Download x86_64</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security & Trust -->
+    <section id="security" class="security">
+        <div class="container">
+            <h2 class="section-title">Developer & Security</h2>
+
+            <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: start;">
+                <div>
+                    <h3>Verifiable Security</h3>
+                    <p style="height: 10px;"></p>
+                    <p style="margin-bottom: 20px;">We believe in transparency. You can verify the integrity of our APK
+                        files using the SHA-256 checksums below. This ensures the file you downloaded has not been
+                        tampered with.</p>
+
+                    <div class="trust-badge">
+                        <ion-icon name="shield-checkmark" size="large"></ion-icon>
+                        <div>
+                            <strong>VirusTotal Scanned</strong>
+                            <div style="font-size: 0.875rem;">passed with 0 detections. <a href="#"
+                                    style="text-decoration: underline;">View Report</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" style="background: #2d3748; color: #fff; border: none;">
+                    <h4 style="color: #fff; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                        <ion-icon name="finger-print-outline"></ion-icon> SHA-256 Checksums
+                    </h4>
+
+                    <div style="margin-bottom: 16px;">
+                        <div style="font-size: 0.75rem; color: #a0aec0; margin-bottom: 4px;">Universal APK</div>
+                        <div class="code-snippet" style="word-break: break-all;">[PENDING_BUILD_HASH]</div>
+                    </div>
+
+                    <div>
+                        <div style="font-size: 0.75rem; color: #a0aec0; margin-bottom: 4px;">ARM64-v8a</div>
+                        <div class="code-snippet" style="word-break: break-all;">[PENDING_BUILD_HASH]</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Help & FAQ Section -->
+    <section id="help" style="padding: 4rem 0; background-color: #f8fafc;">
+        <div class="container">
+            <h2 class="section-title">Help & Frequently Asked Questions</h2>
+
+            <div class="grid">
+                <!-- Large File Performance -->
+                <div class="card">
+                    <h3 style="margin-bottom: 12px; font-size: 1.25rem;">
+                        <ion-icon name="speedometer-outline"
+                            style="vertical-align: middle; color: var(--primary);"></ion-icon>
+                        Large PDF Performance
+                    </h3>
+                    <p>My PDF Reader is optimized for heavy documents. For files larger than <strong>100MB</strong>, the
+                        app automatically enables a "Performance Mode" which skips thumbnail generation to ensure smooth
+                        scrolling and prevent crashes on older devices.</p>
+                </div>
+
+                <!-- Rescan Feature -->
+                <div class="card">
+                    <h3 style="margin-bottom: 12px; font-size: 1.25rem;">
+                        <ion-icon name="sync-outline" style="vertical-align: middle; color: var(--primary);"></ion-icon>
+                        Missing Files? Use Rescan
+                    </h3>
+                    <p>If you recently downloaded a PDF and it doesn't appear in the list, tap the
+                        <strong>Rescan</strong> button in the top toolbar. This forces the app to re-index your device
+                        storage to find new documents instantly.</p>
+                </div>
+
+                <!-- Privacy -->
+                <div class="card">
+                    <h3 style="margin-bottom: 12px; font-size: 1.25rem;">
+                        <ion-icon name="shield-half-outline"
+                            style="vertical-align: middle; color: var(--primary);"></ion-icon>
+                        Why "Manage Storage"?
+                    </h3>
+                    <p>Android requires the <em>Manage External Storage</em> permission so we can find PDF files located
+                        anywhere on your device. We use this <strong>strictly locally</strong> to display your library.
+                        No files are ever sent to the cloud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div style="margin-bottom: 24px;">
+                <a href="#features">Features</a> &bull;
+                <a href="#download">Download</a> &bull;
+                <a href="#help">Help</a> &bull;
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <p>&copy; 2026 My PDF Reader. Built by Developers, for Users.</p>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
